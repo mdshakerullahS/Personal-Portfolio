@@ -13,6 +13,12 @@
     />
   </head>
   <body>
+    <!-- Navbar -->
+    <nav>
+      <a class="nav-link" href="#about">About me</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+    </nav>
     <!--About Section-->
     <section id="about">
       <div class="about-left">
@@ -30,28 +36,9 @@
             my development journey.
           </p>
         </div>
-        <div class="contact">
-          <a
-            href="https://github.com/mdshakerullahS"
-            target="_blank"
-            class="git-hub"
-          >
-            <i class="fa-brands fa-square-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mdshakerullah/"
-            target="_blank"
-            class="linked-in"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="https://x.com/md_shakerullah" target="_blank" class="x">
-            <i class="fa-brands fa-square-x-twitter"></i>
-          </a>
-        </div>
       </div>
       <div class="about-right">
-        <img class="about-img" src="image.jpg" alt="Image" />
+        <img class="about-img" src="Image.jpg" alt="Image" />
       </div>
     </section>
     <!--Skills Section-->
@@ -77,12 +64,20 @@
       <h3>Projects</h3>
       <div class="projects">
         <div class="project">
-          <img src="Project1.png" alt="Project1" />
-          <div class="project-details">
+          <div class="front">
+            <img src="Project1.png" alt="Project1" />
             <h4>Rock Paper Scissors Game</h4>
             <div class="used-langs">
-              <i class="fa-brands fa-css3-alt"></i>
               <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+            </div>
+          </div>
+          <div class="back">
+            <h4>Rock Paper Scissors Game</h4>
+            <div class="used-langs">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
               <i class="fa-brands fa-js"></i>
             </div>
             <p>
@@ -111,12 +106,20 @@
           </div>
         </div>
         <div class="project">
-          <img src="Project2.png" alt="Project2" />
-          <div class="project-details">
+          <div class="front">
+            <img src="Project2.png" alt="Project2" />
             <h4>Basic Calculator</h4>
             <div class="used-langs">
-              <i class="fa-brands fa-css3-alt"></i>
               <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+            </div>
+          </div>
+          <div class="back">
+            <h4>Basic Calculator</h4>
+            <div class="used-langs">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
               <i class="fa-brands fa-js"></i>
             </div>
             <p>
@@ -146,14 +149,33 @@
           </div>
         </div>
       </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <a href="mailto:sourovmdshakerullah@gmail.com" class="contact-btn"
+        >Let's connect</a
+      >
+      <div class="contact-links">
+        <a
+          href="https://github.com/mdshakerullahS"
+          target="_blank"
+          class="git-hub"
+        >
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/mdshakerullah/"
+          target="_blank"
+          class="linked-in"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/md_shakerullah" target="_blank" class="x">
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </a>
       </div>
     </section>
-    <!-- E-mail -->
-    <div class="mail">
-      <a href="mailto:sourovmdshakerullah@gmail.com" target="_blank"
-        >Let's Connect</a
-      >
-    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
